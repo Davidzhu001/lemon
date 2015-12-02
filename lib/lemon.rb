@@ -1,5 +1,7 @@
 require "lemon/version"
 
 module Lemon
-  # Your code goes here...
+  def self.name
+      self.class.name
+  end
 end
